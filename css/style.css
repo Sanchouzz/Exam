@@ -15,6 +15,8 @@ h1{
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    margin-left: 18px;
+    margin-right: 18px;
 
 }
 .con{
@@ -52,15 +54,102 @@ p{
     font-size: 11px;
     line-height: 14px;
     text-align: center;
-
+    width: 179px;
+    margin: 0 auto;
 }
 .sec1 img{
-    width: 320px;
+    width: 100%;
     height: 243px;
     margin: 0 auto;
 }
 .sec2 img{
-    width: 285px;
+    width: 100%;
     height: 296px;
     margin: 0 auto;
+}
+nav{
+    display: none;
+}
+.PC{
+    display: none;
+}
+@media screen and (min-width: 1200px) {
+
+    h1{
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+        line-height: 26px;
+        width: 420px;
+    }
+    #p1{
+        width: 467px;
+    }
+    nav{
+        display:flex;
+        flex-direction: row;
+        width: 438px;
+    }
+    button{
+        display: none;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 28px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .con{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    header h2{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    header img{
+        width: 35px;
+        height: 67px;
+    }
+    header a{
+        font-family: 'Fredoka One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    header a:hover{
+        border-bottom: 5px solid #E8532E;
+    }
+    #p2{
+        margin-bottom: 128px;
+    }
+    .phone{
+        display: none;
+    }
+    .PC{
+        display: block;
+    }
+    img.PC{
+        position: absolute;
+    }
+    img.PC.el1{
+        top: 302px;
+        left: 35px;
+        width: 361px;
+    }
+     img.PC.el2{
+        top: 546px;
+        right: 71px;
+        width: 343px;
+    }
+    #p2{
+        margin-bottom: 100px;
+    }
 }
